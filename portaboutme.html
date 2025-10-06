@@ -216,7 +216,7 @@ transition-duration: 1s;
       position: relative;
       bottom: 100px;
        
-      }div video {
+      }section video {
         width: 200px;
        
       }
@@ -322,8 +322,8 @@ transition-duration: 1s;
         width: 70%;
         height: 100vh;
         background-color: #111;
-        flex-direction: row; 
-        justify-content: space-around;
+        flex-direction: column; 
+        justify-content: center;
         align-items: center;
         gap: 15px; 
         transition: left 0.5s ease;
@@ -331,15 +331,11 @@ transition-duration: 1s;
     #check:checked ~ ul {
         left: 30%;
     }
-    #check:checked + .hamburger-icon span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
+    .card video {
+    width: 60%;
+        height: 40%;
     }
-    #check:checked + .hamburger-icon span:nth-child(2) {
-        opacity: 0;
-    }
-    #check:checked + .hamburger-icon span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px);
-    }
+
 }
 
 </style>
@@ -362,7 +358,7 @@ transition-duration: 1s;
       <video src="vecteezy_high-speed-fiber-data-transfer-5g-4g-bits-internet-ai_24148816.mp4" autoplay loop muted class="video-background">
       </video>
    
-    <div class="container">
+    <section class="container">
 
     <h4>About Me</h4>
    <p>As a fresher, I am excited to build a solid repertoire of experience with the opportunities at SST.</p>
@@ -402,10 +398,10 @@ transition-duration: 1s;
    </h4> <p>click to view</p>
   </div></a> 
    </main>
-    </div>
-    <div id="a">
+    </section>
+    <section id="a">
       <h4>Skills</h4>
-<div class="Skills" >
+<section class="Skills" >
   <div class="card">
     <h4>Programming <br> Languages</h4>
     <div><p>C</p></div>
@@ -426,11 +422,11 @@ transition-duration: 1s;
 
 <div><p>Quick <br> learning</p></div>
       </div>
-</div>
-</div>
-<div id="b">
+</section>
+</section>
+<section id="b">
   <h4>Projects</h4>
-<div class="project" >
+<section class="project" >
 <div class="card"><img src="Screenshot 2025-10-05 180823.png" alt="">
 <p>I am so grateful to the daydream gamejam because it has taught me to use the unity game engine which enabled me to make this game of ping pong with a evil twist.</p>
 <a href="https://karthik10000.itch.io/pong-but-evil" target="_blank">live link</a>
@@ -438,7 +434,7 @@ transition-duration: 1s;
 <div class="card"> <video src="Screen Recording 2025-10-05 161450.mp4" autoplay loop muted class="solar"></video><p>For me simpler is simply better which this project signifies as it's made with a simple keyframes animation. </p>
 <a href="https://kanigollakarthik-collab.github.io/moon-sun/">live link</a>
 </div>
-</div>
-</div>
+</section>
+</section>
 </body>
 </html>
