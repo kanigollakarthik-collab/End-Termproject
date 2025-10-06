@@ -9,6 +9,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bruno+Ace+SC&display=swap" rel="stylesheet">
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body {
             margin: 0px;
             padding: 0px;
@@ -169,21 +172,13 @@ nav ul {
     #check:checked ~ ul {
         left: 30%;
     }
-    #check:checked + .hamburger-icon span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-    }
-    #check:checked + .hamburger-icon span:nth-child(2) {
-        opacity: 0;
-    }
-    #check:checked + .hamburger-icon span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px);
-    }
+
 }
     </style>
 </head>
 <body>
   
- <div class="container">
+ <section class="container">
     <nav>
     <input type="checkbox" id="check">
     <label for="check" class="hamburger-icon">
@@ -198,15 +193,15 @@ nav ul {
         <li><a href="portcontactme.html">Contact</a></li>
     </ul>
 </nav>
-    <div class="name">
+    <section class="name">
    <h2>Karthik <br>
     Kanigolla
    </h2>
    <p>Student at SST</p>
-   </div>
+   </section>
    <footer>-Made by yours truly.</footer>
    
-    </div>
+    </section>
 
 </body>
 </html>
